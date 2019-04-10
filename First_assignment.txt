@@ -8,20 +8,34 @@ The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploa
 
 II. Answer the following question. What does this do?   
 
-1. ls [A-Z]*
+1. ls [A-Z]* 
+  -Using a wildcard to select the files selected
 2. cp *.sh /tmp
+  -Copies the temporary files that are selected
 3. man pwd
+  -Shows the help page of the current directory (Command Directory)
 4. cd ~
+  -Home directory
 5. mkdir -p /test1/test2/test3 
+  -Create the directory test1 and test2 and test3 if they do not already exist
 6. cp -r /tmp .
+  -copy temporary directory recursively
 7. ls | less
+  -List the file in the directory in print on the screen
 8. head -n 24 test.txt » abc.txt
+  -Print the first few lines of the file that is selected
 9. echo "aaa" > aaa.txt
+  -Redirect the output from the command to the file on the disk.
 10. ps -u sallesina
+  -List your processes 
 11. top
+  -Top command to show running processes
 12. ls | grep .sh | xargs mv /tmp
+  -List and concatenating the comands 
 13. du -sk /home/* | sort -r -n | head -10
+  -sort the lines of the file and print the first lines of the file
 14. sort -r names.txt
+  -sort the lines of the txt file and print the result
 
 **IMPORTANT** 
 To submit your answers you must do the following:
