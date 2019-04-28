@@ -8,33 +8,33 @@ The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploa
 
 II. Answer the following question. What does this do?   
 
-1. ls [A-Z]* 
+1. ls [A-Z]* # But what is the wildcare selecting ???? 
   -Using a wildcard to select the files selected
-2. cp *.sh /tmp
+2. cp *.sh /tmp # Actually you ace copying .sh files to the tmp directory 
   -Copies the temporary files that are selected
-3. man pwd
+3. man pwd # Correct!
   -Shows the help page of the current directory (Command Directory)
-4. cd ~
+4. cd ~ # Correct!
   -Home directory
-5. mkdir -p /test1/test2/test3 
+5. mkdir -p /test1/test2/test3 # Correct! 
   -Create the directory test1 and test2 and test3 if they do not already exist
-6. cp -r /tmp .
+6. cp -r /tmp . # Correct!
   -copy temporary directory recursively
-7. ls | less
+7. ls | less # Correct! But you could be more specific an mention that will show them in a less format
   -List the file in the directory in print on the screen
-8. head -n 24 test.txt » abc.txt
+8. head -n 24 test.txt » abc.txt # What is `test.txt » abc.txt` doing
   -Print the first few lines of the file that is selected
-9. echo "aaa" > aaa.txt
+9. echo "aaa" > aaa.txt # To what file ?
   -Redirect the output from the command to the file on the disk.
-10. ps -u sallesina
+10. ps -u sallesina # Correct! But it will list porcess from a user in this case salessina. Try it with your own username in hoffman
   -List your processes 
-11. top
+11. top # Correct!
   -Top command to show running processes
-12. ls | grep .sh | xargs mv /tmp
+12. ls | grep .sh | xargs mv /tmp # Incomplete. Checl what xargs is doing
   -List and concatenating the comands 
-13. du -sk /home/* | sort -r -n | head -10
+13. du -sk /home/* | sort -r -n | head -10 # What is sorted. Also, print the first 10 lines.
   -sort the lines of the file and print the first lines of the file
-14. sort -r names.txt
+14. sort -r names.txt # Correct!
   -sort the lines of the txt file and print the result
 
 **IMPORTANT** 
